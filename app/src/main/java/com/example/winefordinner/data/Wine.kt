@@ -6,8 +6,7 @@ interface Wine {
 
     fun <T> map(mapper: Mapper<T>): T
 
-
-    class Base(
+     open class Base(
         private val id: Int,
         private val name: String,
         private val winery: String,
