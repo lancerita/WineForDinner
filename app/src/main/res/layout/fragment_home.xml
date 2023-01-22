@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".presentation.HomeFragment"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/inputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="300dp"
+        android:hint="@string/write_dish" />
+
+    <Button
+        android:id="@+id/buttonChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_make_choice"
+        android:textSize="24sp"
+        android:layout_margin="24dp"
+        android:backgroundTint="@color/button_color"/>
+</LinearLayout>

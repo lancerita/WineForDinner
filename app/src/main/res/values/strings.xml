@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">WineForDinner</string>
+    <string name="button_make_choice">Подобрать вино</string>
+    <string name="write_dish">Напишите блюдо</string>
 </resources>
